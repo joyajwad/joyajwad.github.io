@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--navy:#2b3443;--slate:#808793;--ice:#d8e3e7;--bg:#f8fafb;--card:#fff;--text:#2b3443;--muted:#63717e;--line:#dce3e8;--shadow:0 16px 60px rgba(36,49,65,.08)}body.dark{--navy:#dce7ef;--slate:#aab7c7;--ice:#334557;--bg:#17212d;--card:#243240;--text:#eaf0f4;--muted:#bdc9d4;--line:#41505e;--shadow:0 16px 60px rgba(0,0,0,.2)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.8 'DM Sans',sans-serif;transition:background .25s,color .25s}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}img{max-width:100%}.wrap{max-width:1180px;margin:auto;padding:0 28px}.top{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}.navinner{min-height:76px;display:flex;align-items:center;gap:22px;justify-content:space-between}.brand{font:800 15px 'Manrope',sans-serif;letter-spacing:.13em}.navlinks{display:flex;gap:26px;align-items:center}.navlinks a{font-size:12px;font-weight:700;color:var(--muted)}.navlinks a:hover,.navlinks a.active{color:var(--text)}.iconbtn{border:1px solid var(--line);background:var(--card);color:var(--text);padding:8px 13px;border-radius:100px}.menu{display:none}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:800;color:var(--muted)}h1,h2,h3{font-family:'Manrope',sans-serif;line-height:1.2;letter-spacing:-.04em}h1{font-size:clamp(42px,6vw,78px);margin:12px 0 22px}h2{font-size:clamp(28px,3.6vw,45px);margin:10px 0 24px}h3{font-size:21px;margin:6px 0 10px}.lead{font-size:17px;max-width:750px;color:var(--muted)}.hero{padding:90px 0 80px;display:grid;grid-template-columns:1.12fr .88fr;gap:55px;align-items:center}.hero h1 span{color:var(--slate)}.heroimage{border-radius:18px;overflow:hidden;box-shadow:var(--shadow);background:var(--ice)}.heroimage img{display:block;width:100%;max-height:400px;object-fit:contain}.btn{display:inline-flex;gap:10px;align-items:center;background:#2b3443;color:white;padding:12px 20px;border-radius:7px;font-weight:700;font-size:12px;border:0}.dark .btn{background:#d8e3e7;color:#17212d}.outline{border:1px solid var(--line);background:transparent;color:var(--text)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}.section{padding:80px 0;border-top:1px solid var(--line)}.sectionintro{max-width:780px}.prose{max-width:840px;color:var(--muted)}.prose p{margin:0 0 19px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.projectcard{display:block;background:var(--card);border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:transform .25s,box-shadow .25s}.projectcard:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.projectcard img{width:100%;height:210px;object-fit:cover;object-position:center;display:block;background:var(--ice)}.projectbody{padding:22px}.projectbody p{color:var(--muted);font-size:13px}.link{font-size:12px;font-weight:800}.timeline{border-left:2px solid var(--line);margin:30px 0 0 9px;padding-left:32px}.job{position:relative;padding:0 0 32px}.job:before{content:'';position:absolute;left:-41px;top:7px;width:14px;height:14px;background:var(--slate);border:4px solid var(--bg);border-radius:50%}.job summary{cursor:pointer;font-weight:700;font-size:18px}.job p{color:var(--muted);max-width:830px}.job small{display:block;color:var(--muted);font-size:12px}.pills{display:flex;gap:9px;flex-wrap:wrap}.pill{border:1px solid var(--line);padding:5px 12px;border-radius:100px;color:var(--muted);font-size:12px}.footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footinner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.detailhero{padding:72px 0 36px}.detailhero h1{max-width:940px;font-size:clamp(35px,5vw,63px)}.detaillayout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:48px}.story{max-width:800px}.storysection{padding:25px 0 32px;border-top:1px solid var(--line)}.storysection p{color:var(--muted);margin:0 0 18px}.sourceimage{width:100%;border-radius:10px;border:1px solid var(--line);background:white;display:block;margin:22px 0;cursor:zoom-in}.side{position:sticky;top:105px;align-self:start;padding:22px;background:var(--card);border:1px solid var(--line);border-radius:12px}.side h3{font-size:16px}.side a{display:block;color:var(--muted);font-size:13px;margin:8px 0}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.gallery button{border:1px solid var(--line);background:var(--card);padding:0;border-radius:9px;overflow:hidden}.gallery img{display:block;width:100%;height:160px;object-fit:cover}.compare{position:relative;overflow:hidden;border-radius:12px;background:var(--ice);height:360px}.compare img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.compare .after{clip-path:inset(0 0 0 50%)}.compare input{position:absolute;bottom:18px;left:10%;width:80%;z-index:3}.comparelabels{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}.model{border:1px dashed var(--slate);padding:25px;border-radius:12px;color:var(--muted)}model-viewer{width:100%;height:400px;background:var(--ice);border-radius:12px}.lightbox{position:fixed;inset:0;background:rgba(10,15,22,.93);z-index:100;display:none;align-items:center;justify-content:center;padding:40px}.lightbox.show{display:flex}.lightbox img{max-width:95%;max-height:90vh;object-fit:contain}.lightbox button{position:absolute;right:24px;top:18px;background:white;border:0;border-radius:50%;font-size:25px;width:45px;height:45px}.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.reveal.visible{opacity:1;transform:none}@media(max-width:850px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.detaillayout{grid-template-columns:1fr}.side{position:static}}@media(max-width:600px){.wrap{padding:0 19px}.hero{padding:55px 0}.section{padding:55px 0}.grid,.gallery{grid-template-columns:1fr}.navlinks{display:none;position:absolute;top:76px;left:0;right:0;padding:20px;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menu{display:inline-block}.heroimage img{max-height:260px}.gallery img{height:210px}.compare{height:250px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+/* 2026 homepage refinement */
+:root{--bg:#f7f9fa;--card:#fff;--text:#2b3443;--muted:#64717e;--line:#d8e3e7}body{background:var(--bg)}.hero{padding:65px 28px 42px;grid-template-columns:1.1fr .9fr}.hero h1{font-size:clamp(56px,8vw,110px);letter-spacing:-.065em}.hero h1 span{color:#808793}.heroimage{max-width:440px;justify-self:end;border-radius:10px;box-shadow:none}.heroimage img{max-height:460px;width:100%;object-fit:contain}.hero .lead{font-size:17px;line-height:1.7}.prose{font-size:17px;line-height:1.9}.about-opening{font-family:Manrope,sans-serif;font-weight:600;font-size:clamp(19px,2.3vw,25px);color:#2b3443;line-height:1.55;margin-bottom:26px!important}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}.project-cover{height:285px;display:grid;place-items:center;background:#e7edf0;padding:16px}.projectcard .project-cover img{width:100%;height:100%;object-fit:contain;object-position:center;background:transparent}.projectcard{border-radius:10px}.projectbody{padding:23px 26px}.projectbody h3{font-size:22px}.detail-cover{padding-bottom:35px}.detail-cover img{display:block;width:100%;max-height:520px;object-fit:contain;background:#e7edf0;border-radius:12px;padding:20px}.note{border-left:3px solid #808793;padding:14px 20px;background:#eaf0f3}.workshop{padding:0 0 25px}.mini-workshop{position:relative;background:#e4ebef;border-radius:12px;height:175px;overflow:hidden}.mini-workshop>svg{display:block;width:100%;height:100%;stroke:#2b3443;stroke-width:2.3;fill:none;stroke-linejoin:round;stroke-linecap:round}.station{cursor:pointer;transition:opacity .2s}.station:hover{opacity:.65}.cadgear,.gearspin{transform-box:fill-box;transform-origin:center;animation:gearturn 8s linear infinite}.reverse{animation-direction:reverse}.mini-engineer{position:absolute;left:4%;bottom:13px;width:37px;height:63px;cursor:pointer;transform:translateX(0);transition:left 1.2s cubic-bezier(.22,.8,.2,1),bottom .3s}.mini-engineer svg{width:100%;height:100%}.mini-engineer.jump{animation:mini-jump .65s ease}.mini-engineer.working .tool-hand{animation:toolwork .4s ease-in-out infinite alternate;transform-origin:38px 40px}.engineer-companion{position:fixed;right:17px;bottom:17px;z-index:90;display:flex;align-items:end;gap:2px;transition:opacity .3s}.engineer-companion button{border:0;background:transparent;cursor:pointer;color:#526971}.engineer-companion #engineer-figure{width:40px;height:70px;padding:0;transition:transform .3s}.engineer-companion svg{width:100%;height:100%}.engineer-companion #engineer-figure.jump{animation:mini-jump .65s ease}.sleep-control{font-size:19px;padding:4px}.wake-control{position:fixed;bottom:18px;right:20px;z-index:95;border:1px solid #b7c5cf;border-radius:50%;width:34px;height:34px;background:#e4ebef;color:#2b3443;cursor:pointer}.engineer-bed{position:fixed;right:14px;bottom:8px;z-index:95;width:115px;opacity:0;transform:translateY(45px);pointer-events:none;transition:opacity .3s,transform .6s}.engineer-bed.show{opacity:1;transform:translateY(0)}.engineer-companion.sleeping{opacity:0;pointer-events:none}.engineer-companion:not(.in-view){opacity:.95}@keyframes mini-jump{0%,100%{transform:translateY(0)}45%{transform:translateY(-24px) rotate(-7deg)}}@keyframes gearturn{to{transform:rotate(360deg)}}@keyframes toolwork{to{transform:rotate(15deg)}}@media(max-width:700px){.hero{grid-template-columns:1fr;padding-top:44px}.heroimage{justify-self:center;max-width:350px}.grid{grid-template-columns:1fr}.project-cover{height:235px}.mini-workshop{height:125px}.prose{font-size:16px}.engineer-companion{transform:scale(.8);transform-origin:bottom right}}@media(prefers-reduced-motion:reduce){.cadgear,.gearspin,.mini-engineer,.engineer-companion #engineer-figure{animation:none!important;transition:none!important}}
+
+/* V3: single soft slate-gray theme and clear project cards */
+:root{--bg:#EEF0F2;--card:#F9FAFB;--line:#D5DCE1;--ice:#D8E3E7}
+body{background:#EEF0F2!important}
+.hero h1{margin-bottom:10px}
+.hero-subtitle{font-size:19px!important;line-height:1.55;max-width:570px;color:#526071;font-weight:600;margin:0 0 26px}
+.projectcard{display:flex;flex-direction:column;min-width:0;background:#F9FAFB;isolation:isolate}
+.project-cover{position:relative;flex:none;height:285px;overflow:hidden;padding:0;background:#DCE3E8}
+.projectcard .project-cover img{position:static;display:block;width:100%;height:100%;object-fit:cover;object-position:center;max-width:none}
+.projectcard:nth-child(1) .project-cover img{object-position:center 52%}
+.projectcard:nth-child(2) .project-cover img{object-position:center 43%}
+.projectcard:nth-child(3) .project-cover img{object-position:center 47%}
+.projectcard:nth-child(4) .project-cover img{object-position:center 50%}
+.projectbody{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:180px;padding:23px 26px;background:#F9FAFB;color:#2B3443}
+.projectbody h3{margin:4px 0 5px;font-size:22px;line-height:1.35;color:#2B3443;overflow-wrap:break-word}
+.projectbody p{margin:0 0 9px}.projectbody .link{margin-top:auto;color:#526071}
+.mini-workshop{overflow:hidden}
+.mini-engineer{z-index:4;left:4%;bottom:13px;will-change:left,transform;transition:left 1.45s cubic-bezier(.35,.15,.45,1),bottom .3s}
+.mini-engineer.traveling svg{animation:run-bob .23s ease-in-out infinite alternate}
+.mini-engineer.traveling svg g>path:not(.tool-hand){stroke-dasharray:70 0}
+.mini-engineer.working svg{animation:work-bob .5s ease-in-out infinite alternate}
+.mini-engineer.working .tool-hand{animation:toolwork .25s ease-in-out infinite alternate}
+.mini-engineer.jump{animation:mini-jump .65s ease}
+.engineer-companion #engineer-figure{position:relative}
+.engineer-companion #engineer-figure svg{animation:idle-sway 2.8s ease-in-out infinite alternate}
+.engineer-bed.show{opacity:1;transform:translateY(0)}
+@keyframes run-bob{from{transform:translateY(0) rotate(-3deg)}to{transform:translateY(-7px) rotate(3deg)}}
+@keyframes work-bob{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+@keyframes idle-sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@media(max-width:700px){.project-cover{height:235px}.projectbody{min-height:165px}.hero-subtitle{font-size:17px!important}}
+@media(prefers-reduced-motion:reduce){.mini-engineer.traveling svg,.mini-engineer.working svg,.engineer-companion #engineer-figure svg{animation:none!important}}
+
+/* V4: unobtrusive scroll-aware margin character; no workshop box or sleep button */
+.margin-engineer{position:fixed;z-index:44;top:110px;left:12px;width:118px;height:125px;pointer-events:auto;cursor:pointer;transform:translate3d(0,0,0);will-change:top,left;transition:top .8s cubic-bezier(.22,.75,.25,1),left .8s cubic-bezier(.22,.75,.25,1);user-select:none;filter:drop-shadow(0 1px 0 rgba(255,255,255,.8))}
+.margin-engineer svg{width:100%;height:100%;overflow:visible}
+.margin-engineer #tiny-figure{transform-origin:25px 95px;animation:engineer-idle 2.5s ease-in-out infinite alternate}
+.margin-engineer .arm-left,.margin-engineer .arm-right{transform-origin:25px 58px}
+.margin-engineer.working .arm-right{animation:engineer-tool .45s ease-in-out infinite alternate}
+.margin-engineer.speaking .arm-left{animation:engineer-talk .65s ease-in-out infinite alternate}
+.margin-engineer.walking #tiny-figure{animation:engineer-step .24s ease-in-out infinite alternate}
+.margin-engineer.jumping #tiny-figure{animation:engineer-jump .62s ease-in-out}
+.margin-engineer.rocket-flight{transition:top .14s linear,left .4s ease}
+.margin-engineer.rocket-flight #tiny-figure{animation:none;transform:translate(76px,-6px) rotate(-9deg);transform-origin:25px 95px}
+.margin-engineer.rocket-flight .arm-left{transform:rotate(-35deg)}
+.margin-engineer.rocket-flight .arm-right{transform:rotate(-30deg)}
+.margin-engineer .scene-car-wheel{transform-box:fill-box;transform-origin:center}
+.margin-engineer.working .scene-gear{transform-box:fill-box;transform-origin:center;animation:engineer-gear 2s linear infinite}
+.margin-engineer .scene-phone{animation:engineer-phone 1.3s ease-in-out infinite alternate}
+@keyframes engineer-idle{to{transform:translateY(-2px)}}
+@keyframes engineer-tool{to{transform:rotate(-22deg)}}
+@keyframes engineer-talk{to{transform:rotate(25deg)}}
+@keyframes engineer-step{to{transform:translateY(-5px) rotate(3deg)}}
+@keyframes engineer-jump{45%{transform:translateY(-26px) rotate(-8deg)}}
+@keyframes engineer-gear{to{transform:rotate(360deg)}}
+@keyframes engineer-phone{to{transform:translateY(-2px)}}
+@media(max-width:1280px){.margin-engineer{width:86px;height:96px}}
+@media(max-width:1040px){.margin-engineer{display:none!important}}
+@media(prefers-reduced-motion:reduce){.margin-engineer,.margin-engineer *{animation:none!important;transition:none!important}}
+/* Preserve all important project image content at any browser width */
+.project-cover{height:auto;aspect-ratio: 1.52/1;display:grid;place-items:center;padding:12px;background:#E1E6EA}
+.projectcard .project-cover img{width:100%;height:100%;object-fit:contain!important;object-position:center!important}
+.projectcard:nth-child(1) .project-cover img{object-fit:cover!important;object-position:center 52%!important}
+@media(max-width:700px){.project-cover{aspect-ratio:1.52/1}}
+
+/* V5 adjustments */
+:root{--bg:#EBEBEB;--line:#D7DADD}
+body{background:#EBEBEB}
+.project-cover{aspect-ratio:1.52/1!important;height:auto!important;padding:0!important;background:#E4E7E9!important;overflow:hidden}
+.projectcard .project-cover img{display:block!important;width:100%!important;height:100%!important;aspect-ratio:1.52/1!important;object-fit:contain!important;object-position:center!important}
+.margin-engineer.rocket-flight #tiny-figure{animation:none;transform:translate(-10px,12px) rotate(0deg);transform-origin:25px 95px}
+
+/* Version 6: resume and vertically fitted image compositions */
+.projectcard:nth-child(n+2) .project-cover img{object-fit:contain!important;object-position:center!important}
+.resume-main{min-height:calc(100vh - 150px);padding-top:85px;padding-bottom:95px}
+.resume-main h1{margin-bottom:12px}
+.resume-panel{margin-top:50px;max-width:850px;min-height:440px;padding:70px 35px;text-align:center;border:1px solid var(--line);border-radius:14px;background:#F9FAFB;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.resume-panel h2{font-size:29px;margin:14px 0 5px}
+.resume-panel p{color:var(--muted);margin:5px 0}
+.resume-panel .resume-note{font-size:13px;max-width:460px;margin:15px 0 25px}
+.resume-placeholder-icon{font-size:65px;line-height:1;color:#8798A5}
+/* Movement is intentionally visible but never obstructs content */
+.margin-engineer{transition:top .82s cubic-bezier(.2,.8,.2,1),left .82s cubic-bezier(.2,.8,.2,1)}
+.margin-engineer.traveling #tiny-figure{animation:engineer-hop .34s ease-in-out infinite alternate}
+.margin-engineer.hero-wave .arm-right{animation:engineer-wave .65s ease-in-out infinite alternate}
+.margin-engineer.speaking .arm-left{animation:engineer-talk .55s ease-in-out infinite alternate}
+.margin-engineer.working .arm-right{animation:engineer-tool .35s ease-in-out infinite alternate}
+.margin-engineer.rocket-flight{transition:none!important;filter:drop-shadow(0 2px 3px rgba(40,50,70,.16))}
+.margin-engineer.rocket-flight #tiny-figure{transform:none!important;animation:engineer-flight-bob .23s ease-in-out infinite alternate}
+.margin-engineer.rocket-flight .arm-right{animation:none;transform:rotate(-32deg)}
+.margin-engineer.rocket-flight .arm-left{animation:none;transform:rotate(-18deg)}
+.margin-engineer .flame{transform-origin:60px 111px;animation:engineer-flame .13s ease-in-out infinite alternate}
+.margin-engineer .audience-head{animation:audience-nod 2s ease-in-out infinite alternate}
+@keyframes engineer-hop{from{transform:translateY(0) rotate(-5deg)}to{transform:translateY(-12px) rotate(6deg)}}
+@keyframes engineer-wave{from{transform:rotate(-58deg)}to{transform:rotate(-104deg)}}
+@keyframes engineer-flight-bob{to{transform:translateY(-3px)}}
+@keyframes engineer-flame{to{transform:scaleY(1.28)}}
+@keyframes audience-nod{to{transform:translateY(2px)}}
+@media(prefers-reduced-motion:reduce){.margin-engineer,.margin-engineer *{animation:none!important;transition:none!important}}
+
+/* During flight, only the hand reaches the very tip of the left fin. */
+.margin-engineer.rocket-flight .arm-right{transform:none!important;d:path("M25 58 L45 80")}
+.margin-engineer.rocket-flight .arm-left{transform:none!important;d:path("M25 58 L13 66")}
+.margin-engineer.rocket-flight .leg-left{d:path("M25 77 L13 93")}
+.margin-engineer.rocket-flight .leg-right{d:path("M25 77 L36 91")}
+
+/* V7: animation joints, distinct actions and real cross-page travel. */
+.margin-engineer{width:145px;height:135px;transition:none!important}
+.margin-engineer #tiny-figure{animation:none!important;transform:none!important}
+.margin-engineer .upper-right,.margin-engineer .fore-right,.margin-engineer .upper-left,.margin-engineer .fore-left,.margin-engineer .thigh-left,.margin-engineer .thigh-right,.margin-engineer .shin-left,.margin-engineer .shin-right{animation:none!important;transform:none!important}
+.margin-engineer.scene-hero .fore-right{transform-origin:35px 51px!important;animation:wrist-wave .65s ease-in-out infinite alternate!important}
+.margin-engineer.scene-about .thought{animation:thought-float 2.2s ease-in-out infinite alternate}
+.margin-engineer.scene-projects .fore-right{transform-origin:36px 62px!important;animation:tool-tap .55s ease-in-out infinite alternate!important}
+.margin-engineer.scene-experience .fore-left,.margin-engineer.scene-experience .fore-right{animation:typing .25s ease-in-out infinite alternate!important}
+.margin-engineer.scene-contact .fore-right{animation:none!important}
+.margin-engineer.is-running #tiny-figure{animation:running-bob .18s ease-in-out infinite alternate!important}
+.margin-engineer.is-running .thigh-left,.margin-engineer.is-running .thigh-right{animation:running-legs .22s ease-in-out infinite alternate!important}
+.margin-engineer.landing #tiny-figure{animation:landing-hop .55s ease-out!important}
+.margin-engineer.rocket-flight #tiny-figure{animation:flight-wiggle .24s ease-in-out infinite alternate!important}
+.margin-engineer.rocket-flight .fore-right{animation:none!important;transform:none!important}
+@keyframes wrist-wave{from{transform:rotate(-10deg)}to{transform:rotate(35deg)}}
+@keyframes thought-float{to{transform:translateY(-3px)}}
+@keyframes tool-tap{to{transform:rotate(13deg)}}
+@keyframes typing{to{transform:translateY(2px)}}
+@keyframes running-bob{to{transform:translateY(-4px)}}
+@keyframes running-legs{to{transform:rotate(22deg)}}
+@keyframes landing-hop{50%{transform:translateY(-14px)}}
+@keyframes flight-wiggle{to{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.margin-engineer,.margin-engineer *{animation:none!important}}
+
+/* V8: motion is driven by one animation clock, not competing CSS animations. */
+.margin-engineer,.margin-engineer.rocket-flight{transition:none!important}
+.margin-engineer #tiny-figure,.margin-engineer #tiny-figure path,.margin-engineer .fore-right,.margin-engineer .fore-left,.margin-engineer .thigh-left,.margin-engineer .thigh-right{animation:none!important}
+.margin-engineer.scene-hero .fore-right,.margin-engineer.scene-projects .fore-right,.margin-engineer.scene-experience .fore-right,.margin-engineer.scene-experience .fore-left{animation:none!important;transform:none!important}
+.margin-engineer.rocket-flight #tiny-figure{transform:translate(76px,-6px) rotate(-9deg)!important}
+.margin-engineer.rocket-flight .fore-right{transform:none!important}
+
+/* V9: all figure joints driven by one clock; no competing CSS limb transforms. */
+.margin-engineer #tiny-figure{animation:none!important;transform-origin:25px 92px}
+.margin-engineer.rocket-flight #tiny-figure{transform:translate(15px,14px)!important}
+.margin-engineer .fore-right,.margin-engineer .fore-left,.margin-engineer .upper-right,.margin-engineer .upper-left{animation:none!important}
+.margin-engineer.scene-hero .fore-right{animation:none!important;transform:none!important}
+.margin-engineer.scene-projects .fore-right{animation:none!important;transform:none!important}
+.margin-engineer.scene-experience .fore-right,.margin-engineer.scene-experience .fore-left{animation:none!important;transform:none!important}
+
+.margin-engineer.scene-hero #tiny-figure{transform-origin:25px 92px;transform:none}
+
+.margin-engineer.scene-hero #tiny-figure{transform:var(--figure-pose,none)!important}
+
+/* Version 11 refinements */
+.brand{display:inline-flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.brand-slash{font-weight:400;color:#a1aab3}
+.brand-descriptor{font-size:11px;font-weight:500;letter-spacing:.045em;text-transform:none;color:#9099a2}
+.hero-subtitle .hero-school{display:block;margin-top:7px;font-size:.82em;color:#7d8792;font-weight:400}
+.contact-details{margin-top:30px;display:flex;flex-direction:column;gap:13px;max-width:550px;padding:20px 24px;border:1px solid #cbd1d6;border-radius:12px;background:#f4f4f4;box-shadow:0 5px 22px rgba(43,52,67,.035);opacity:1;transform:none}
+.contact-details.is-entering{opacity:0;transform:translateX(-105vw)}
+.contact-details.is-dragging{animation:contact-drag 1.45s cubic-bezier(.2,.75,.23,1) both}
+.contact-details.is-arrived{opacity:1;transform:translateX(0)}
+.contact-detail-row{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap;font-size:16px}
+.contact-detail-label{min-width:70px;color:#697584;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.contact-detail-row a{color:#2b3443;text-decoration:none;overflow-wrap:anywhere}
+.contact-detail-row a:hover{text-decoration:underline}
+@keyframes contact-drag{0%{opacity:1;transform:translateX(-105vw)}75%{opacity:1;transform:translateX(9px)}88%{transform:translateX(-4px)}100%{opacity:1;transform:translateX(0)}}
+@media(max-width:720px){.brand-descriptor{font-size:9px}.brand{gap:4px}.contact-details{padding:16px}}
+@media(prefers-reduced-motion:reduce){.contact-details.is-dragging{animation:none;opacity:1;transform:none}}
+
+/* Version 12: static contact information in the unused right column */
+#contact>.wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,.95fr);column-gap:clamp(24px,5vw,85px);align-items:start}
+#contact .eyebrow,#contact h2,#contact .actions{grid-column:1}
+#contact .contact-details{grid-column:2;grid-row:1 / span 3;align-self:center;margin:0;max-width:none;opacity:1!important;transform:none!important;animation:none!important;visibility:visible!important}
+#contact .actions{display:flex;flex-wrap:wrap}
+.margin-engineer.scene-contact #tiny-figure{transform:var(--figure-pose,none)!important;transform-origin:25px 92px}
+.margin-engineer.scene-contact .thanks-bubble{animation:thought-float 2.5s ease-in-out infinite alternate}
+@media(max-width:850px){#contact>.wrap{grid-template-columns:1fr}#contact .eyebrow,#contact h2,#contact .actions,#contact .contact-details{grid-column:1}#contact .contact-details{grid-row:auto;margin-top:25px}}
+@media(prefers-reduced-motion:reduce){.margin-engineer.scene-contact .thanks-bubble{animation:none!important}}
+
+/* V13: enlarged caption, natural dance shoulders, hand-anchored rocket hang */
+.margin-engineer svg{overflow:visible}
+.margin-engineer.rocket-flight #tiny-figure{
+  transform:translate(95px,54px) rotate(var(--flight-sway,0deg))!important;
+  transform-origin:25px 24px!important;
+}
+.margin-engineer.rocket-flight .fore-right{animation:none!important;transform:none!important}
+
+
+/* COLOR PALETTE ONLY — V13 layout and animation remain unchanged.
+   User-provided swatches: #D2D3DB, #9394A5, #484B6A. */
+:root {
+  --navy:#484B6A;
+  --slate:#9394A5;
+  --ice:#D2D3DB;
+  --bg:#D2D3DB;
+  --card:#E8E8ED;
+  --text:#484B6A;
+  --muted:#484B6A;
+  --line:#9394A5;
+  --shadow:0 16px 60px rgba(72,75,106,.12);
+}
+body, .top {background:#D2D3DB!important;color:#484B6A}
+.hero h1 span,.about-opening,.projectbody h3 {color:#484B6A}
+.hero-subtitle,.hero-subtitle .hero-school,.brand-descriptor,.brand-slash {color:#484B6A}
+.hero-subtitle .hero-school,.brand-descriptor {opacity:.75}
+.projectcard,.projectbody,.side,.resume-panel,.contact-details {background:#E8E8ED!important;color:#484B6A}
+.project-cover,.detail-cover img,.projectcard .project-cover,.heroimage,.compare,model-viewer {background:#C4C5D0!important}
+.projectbody .link,.contact-detail-row a,.contact-detail-label,.note,.resume-placeholder-icon {color:#484B6A}
+.btn:not(.outline) {background:#484B6A;color:#F7F7FA}
+.btn.outline {background:transparent;color:#484B6A;border-color:#9394A5}
+.note {background:#C4C5D0;border-color:#484B6A}
+.pill,.model,.gallery button,.projectcard,.contact-details,.resume-panel,.side {border-color:#9394A5}
+.job:before {background:#484B6A;border-color:#D2D3DB}
+.lightbox {background:rgba(42,43,65,.94)}
+/* Preserve the illustration geometry and all animation timing. */
+
+/* Mazda project case study */
+.mazda-content{max-width:1040px;padding-bottom:90px}.mazda-content .storysection{padding:40px 0}.mazda-content .storysection p{font-size:16px;line-height:1.85;color:var(--text);max-width:900px}.mazda-content figure{margin:22px 0 0}.mazda-content figure img{display:block;width:100%;height:100%;object-fit:contain;background:#C4C5D0;border-radius:9px;cursor:zoom-in}.mazda-content figcaption,.mazda-caption{color:var(--muted);font-size:13px;margin-top:9px;text-align:center}.mazda-triptych,.mazda-pair{display:grid;gap:15px;align-items:start}.mazda-triptych{grid-template-columns:repeat(3,minmax(0,1fr))}.mazda-pair{grid-template-columns:repeat(2,minmax(0,1fr))}.mazda-triptych figure img{height:310px}.mazda-pair figure img{height:345px}.mazda-wide img{max-height:570px}.mazda-tag{font-size:11px;font-weight:800;letter-spacing:.16em;color:#484B6A;margin:14px 0}.mazda-subhead{font-size:clamp(22px,3vw,31px);margin:35px 0 17px}.mazda-carousel{display:flex;align-items:center;justify-content:center;gap:10px}.mazda-carousel>img{width:calc(100% - 95px);height:490px;object-fit:contain;background:#C4C5D0;border-radius:12px;cursor:zoom-in}.mazda-arrow{border:1px solid var(--line);background:var(--card);border-radius:50%;font-size:35px;color:var(--text);width:40px;height:44px;cursor:pointer}.mazda-gallery-bottom{text-align:center;padding-top:14px}.mazda-thumbs{display:flex;justify-content:center;gap:9px;margin-top:10px;flex-wrap:wrap}.mazda-thumb{border:2px solid transparent;border-radius:7px;background:transparent;padding:2px;cursor:pointer}.mazda-thumb.active{border-color:#484B6A}.mazda-thumb img{width:78px;height:57px;object-fit:cover;border-radius:4px}.mazda-video{display:block;width:100%;max-height:550px;border-radius:12px;background:#171b25}.mazda-content .btn{margin-top:40px}.engineer-companion,.wake-control{display:none!important}.engineer-bed{opacity:1!important;transform:translateY(0)!important;pointer-events:none!important}.engineer-bed svg text{animation:mazda-zzz 2.4s ease-in-out infinite}@keyframes mazda-zzz{50%{opacity:.35}}@media(max-width:700px){.mazda-triptych{gap:7px}.mazda-triptych figure img{height:180px}.mazda-pair{grid-template-columns:1fr}.mazda-pair figure img{height:auto;max-height:390px}.mazda-carousel>img{height:290px}.mazda-thumb img{width:54px;height:43px}.mazda-content .storysection p{font-size:15px}}
+
+/* Mazda image framing refinements */
+.mazda-triptych{gap:12px}
+.mazda-triptych figure img{height:385px;object-fit:cover;object-position:center}
+.mazda-pair figure img{height:410px;object-fit:cover;object-position:center}
+#part-4 .mazda-pair figure:last-child img{object-fit:contain}
+.mazda-content .mazda-triptych,.mazda-content .mazda-pair{width:100%}
+.engineer-bed{width:158px;right:10px;bottom:7px}
+.engineer-bed .sleep-z{animation:float-sleep-z 2.8s ease-in-out infinite}
+.engineer-bed .z-two{animation-delay:.35s}
+.engineer-bed .z-three{animation-delay:.7s}
+@keyframes float-sleep-z{0%,100%{opacity:.8;transform:translateY(2px)}50%{opacity:1;transform:translateY(-5px)}}
+@media(max-width:700px){.mazda-triptych{gap:7px}.mazda-triptych figure img{height:240px}.mazda-pair figure img{height:390px}.engineer-bed{width:125px}}
+@media(prefers-reduced-motion:reduce){.engineer-bed .sleep-z{animation:none}}
+
+/* Mazda fine adjustments: full car framing, smaller sleeping figure, centered gallery controls */
+.mazda-triptych figure:first-child img,.mazda-triptych figure:last-child img{object-fit:contain;object-position:center center}
+.engineer-bed{width:102px;right:12px;bottom:8px}
+.mazda-carousel .mazda-arrow{box-sizing:border-box;flex:0 0 44px;display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0 0 4px;margin:0;line-height:1;font-family:Arial,sans-serif;font-size:34px;font-weight:400;vertical-align:middle;appearance:none;-webkit-appearance:none}
+@media(max-width:700px){.engineer-bed{width:84px;right:8px;bottom:6px}.mazda-carousel .mazda-arrow{width:36px;height:40px;flex-basis:36px;font-size:29px}}
+
+/* Gearbox case study */
+.gearbox-content{max-width:1040px;padding-bottom:90px}.gearbox-content .storysection{padding:40px 0}.gearbox-content .storysection p{font-size:16px;line-height:1.85;color:var(--text);max-width:920px}.gearbox-content figure{margin:22px 0 28px}.gearbox-content figure img{display:block;width:100%;height:auto;max-height:530px;object-fit:contain;border-radius:9px;background:#C4C5D0;cursor:zoom-in}.gearbox-content figcaption{font-size:13px;color:var(--muted);text-align:center;margin-top:9px}.gearbox-hero img{max-height:520px!important}.gearbox-sketch{max-width:590px;margin-left:auto!important;margin-right:auto!important}.gearbox-sketch img{max-height:650px!important}.gearbox-pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}.gearbox-pair img{max-height:370px!important}.gearbox-small{max-width:770px;margin:auto}.gearbox-small img{max-height:220px!important}.gearbox-drawings-small{max-width:820px;margin:0 auto}.gearbox-drawings-small img{max-height:265px!important}.gearbox-calculation{max-width:760px;margin-left:auto!important;margin-right:auto!important}.gearbox-calculation img{max-height:640px!important}.gearbox-final-cad img{max-height:520px!important}.gearbox-content .btn{margin-top:35px}@media(max-width:650px){.gearbox-pair{grid-template-columns:1fr;gap:5px}.gearbox-content .storysection p{font-size:15px}.gearbox-small{grid-template-columns:1fr 1fr}.gearbox-drawings-small{grid-template-columns:1fr 1fr}}
+
+/* Gearbox page refinements */
+.gearbox-gear-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:center;margin-top:18px}
+.gearbox-gear-copy p{margin-top:0}
+.gearbox-gear-stack{display:flex;flex-direction:column;gap:12px;min-width:0}
+.gearbox-gear-stack figure{margin:0!important}
+.gearbox-gear-stack img{width:100%;height:205px!important;max-height:none!important;object-fit:contain}
+.gearbox-enclosure{max-width:450px;margin:22px auto 28px!important}
+.gearbox-enclosure img{max-height:300px!important}
+.gearbox-small .gearbox-shaft-fit{width:88%!important;margin:0 auto;object-fit:contain!important}
+.gearbox-drawings-small{max-width:none!important;margin:0!important}
+.gearbox-drawings-small img{max-height:370px!important}
+@media(max-width:700px){.gearbox-gear-layout{grid-template-columns:1fr;gap:16px}.gearbox-gear-stack img{height:210px!important}.gearbox-enclosure{max-width:85%}}
+
+/* Brake rotor project: concise case-study layout */
+.rotor-cover{max-width:1000px;margin:20px auto 48px;padding:0 24px;box-sizing:border-box}
+.rotor-cover img{display:block;width:100%;max-height:510px;object-fit:contain;border-radius:16px;background:#e9e9eb;cursor:zoom-in}
+.rotor-story{max-width:1000px;margin:0 auto 85px}
+.rotor-story .storysection{margin-bottom:52px}
+.rotor-story .storysection p{max-width:820px;line-height:1.8}
+.rotor-story figure{margin:0}
+.rotor-story figure img{display:block;width:100%;height:auto;object-fit:contain;cursor:zoom-in;border-radius:10px;background:#f2f2f4}
+.rotor-story figcaption{font-size:13px;color:#586071;margin-top:10px;line-height:1.5}
+.rotor-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:36px;align-items:center;margin-top:18px}
+.rotor-visuals{display:grid;grid-template-columns:1fr 110px;gap:18px;align-items:center}
+.rotor-visuals .rotor-vane img{max-height:270px}
+.rotor-final{max-width:820px;margin:28px auto 0!important}
+@media(max-width:720px){.rotor-split{grid-template-columns:1fr;gap:20px}.rotor-visuals{grid-template-columns:minmax(0,1fr) 85px}.rotor-cover{margin-bottom:30px}.rotor-story .storysection{margin-bottom:36px}}
+
+/* CFD project case study */
+.cfd-cover{max-width:1100px;margin:12px auto 42px;padding:0 24px}.cfd-cover img{width:100%;max-height:560px;object-fit:contain;border-radius:12px;cursor:zoom-in;background:#c6c7cb!important}.cfd-story{max-width:1060px;padding-bottom:80px}.cfd-story .storysection{margin-bottom:52px}.cfd-story p{font-size:16px;line-height:1.85;max-width:960px}.cfd-story figure{margin:0;min-width:0}.cfd-story figure img{display:block;width:100%;height:auto;object-fit:contain;border-radius:9px;background:#d8d8db;cursor:zoom-in}.cfd-story figcaption{font-size:13px;line-height:1.55;color:var(--muted);margin-top:10px}.cfd-background{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(230px,.75fr);gap:32px;align-items:center}.cfd-background figure img{aspect-ratio:4/3;object-fit:cover}.cfd-models{display:grid;grid-template-columns:.68fr .68fr 1.35fr;gap:17px;align-items:end;margin:27px 0}.cfd-models figure{display:flex;flex-direction:column;justify-content:end}.cfd-models figure img{height:360px;object-fit:contain}.cfd-models .cfd-prototypes img{height:360px;object-fit:contain}.cfd-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:26px 0}.cfd-pair img{max-height:355px;object-fit:contain}.cfd-specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:23px 0 26px}.cfd-specs>div{background:rgba(255,255,255,.23);border:1px solid var(--line);border-radius:9px;padding:14px 16px;display:flex;flex-direction:column;gap:7px}.cfd-specs span{font-size:12px;color:var(--muted)}.cfd-specs b{font-size:17px;color:var(--text)}.cfd-inserts{margin:22px 0 28px!important}.cfd-video{max-width:720px;margin:26px auto!important}.cfd-video video{width:100%;max-height:440px;background:#171b25;border-radius:11px}.cfd-results{margin:26px 0!important}.cfd-results img{max-height:550px;object-fit:contain}.cfd-report-link{display:inline-block;margin:12px 0 0;font-weight:650;color:var(--text);text-decoration:underline;text-underline-offset:4px}.cfd-story .btn{margin-top:12px}
+/* Fossil gray site palette */
+:root{--bg:#555557;--card:#626367;--text:#F6F3EF;--muted:#D5D5D7;--line:#89898C}body,body .top{background:#555557!important;color:#F6F3EF!important}body .top a,body .brand,body .navlinks a,body .detailhero,body .detailhero h1,body .detailhero .lead,body .eyebrow,body .storysection,body .storysection p,body .footinner,body .footinner a,body .link,body .cfd-report-link{color:#F6F3EF!important}.projectcard,.projectbody,.contact-details,.resume-panel,.side{background:#626367!important;color:#F6F3EF!important}.projectbody h3,.projectbody p,.projectbody .link,.about-opening,.hero h1,.hero-subtitle,.hero-subtitle .hero-school,.brand-descriptor,.brand-slash,.prose,.job,.job p,.job summary,.contact-detail-row a,.contact-detail-label{color:#F6F3EF!important}.btn:not(.outline){background:#E9E8E6!important;color:#34363B!important}.btn.outline{border-color:#BDBDC2!important;color:#F6F3EF!important;background:transparent!important}.detail-cover img,.project-cover,.projectcard .project-cover,.heroimage{background:#77787c!important}.footer{border-color:#89898C!important}.cfd-story figcaption{color:#DFDFE1!important}.cfd-story .eyebrow{color:#F6F3EF!important}
+@media(max-width:750px){.cfd-background{grid-template-columns:1fr}.cfd-models{grid-template-columns:1fr 1fr}.cfd-models .cfd-prototypes{grid-column:1/-1}.cfd-models figure img{height:280px}.cfd-models .cfd-prototypes img{height:350px}.cfd-pair{grid-template-columns:1fr}.cfd-specs{grid-template-columns:1fr 1fr}.cfd-story p{font-size:15px}}
+
+/* Readability and soft fossil-gray refinement — Oct 2026 */
+:root{--bg:#68696C;--card:#737478;--text:#F8F7F5;--muted:#F0EFF0;--line:#96979B;--shadow:0 16px 60px rgba(15,17,22,.14)}
+body,body .top{background:#68696C!important;color:#F8F7F5!important}
+.projectcard,.projectbody,.contact-details,.resume-panel,.side{background:#737478!important}
+.projectbody p{font-size:15px;line-height:1.65}
+body{font-size:16px}
+.navlinks a{font-size:15px;letter-spacing:.01em}
+.brand{font-size:17px;letter-spacing:.095em}
+.brand-descriptor{font-size:13px;color:#F0EFF0!important}
+.eyebrow{font-size:13px;color:#F0EFF0!important}
+.link,.btn{font-size:14px}
+.job small,.pill,.footer,.contact-detail-label{font-size:14px}
+.cfd-story figcaption,.gearbox-content figcaption,.mazda-content figcaption,.rotor-story figcaption{font-size:14px}
+.cfd-specs span{font-size:14px}
+.cfd-report-link{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:750;padding:12px 18px;margin:18px 0 5px;border:1.5px solid #E6E5E4;border-radius:8px;background:rgba(255,255,255,.09);text-decoration:none;transition:background .2s,transform .2s}
+.cfd-report-link::after{content:'↗';font-size:19px;line-height:1}
+.cfd-report-link:hover{background:rgba(255,255,255,.2);transform:translateY(-2px)}
+/* The walking companion inherits the same near-white as primary text. */
+.margin-engineer #tiny-figure,.margin-engineer #tiny-figure *{stroke:#F8F7F5!important}
+.margin-engineer svg #scene-props *{stroke:#F8F7F5!important}
+@media(max-width:700px){.brand{font-size:15px}.brand-descriptor{font-size:11px}.navlinks a{font-size:15px}.projectbody p{font-size:15px}.cfd-report-link{font-size:15px}}
+
+/* Oct 24 refinements: neutral photo frames, readable captions, warm character accents */
+:root{--character-line:#D4C9CB;--character-maroon:#B97982;--character-dark:#433238}
+.margin-engineer #tiny-figure,.margin-engineer #tiny-figure *{stroke:var(--character-line)!important;stroke-width:2.05!important}
+.margin-engineer svg #scene-props *{stroke:var(--character-maroon)!important}
+.margin-engineer svg #scene-props .thought,.margin-engineer svg #scene-props .thanks-bubble,.margin-engineer svg #scene-props .hero-ow{stroke:var(--character-line)!important}
+.margin-engineer svg #scene-props text{fill:var(--character-dark)!important;stroke:none!important}
+.margin-engineer svg #scene-props .thought path{stroke:var(--character-dark)!important}
+.margin-engineer svg #scene-props .thought circle{stroke:var(--character-maroon)!important}
+.margin-engineer svg #scene-props .project-hammer .hammer-head{stroke:var(--character-dark)!important}
+.job:before{background:var(--character-maroon)!important;border-color:var(--bg)!important}
+.mazda-content figure img,.mazda-carousel>img,.gearbox-content figure img,.cfd-story figure img{background:#858588!important}
+.mazda-content .mazda-triptych figure img,.mazda-content .mazda-pair figure img{background:#858588!important}
+.rotor-story figcaption,.rotor-cover figcaption{color:#F8F7F5!important}
+.cfd-models .cfd-prototypes img{object-fit:contain;object-position:center;}
+.cfd-models .cfd-prototypes{overflow:hidden}
+/* Keep the contact actions and details closer, without rearranging them */
+#contact .contact-details{margin-top:17px!important}
+
+/* Final detail refinements: quiet dialogue and sharply outlined props */
+.margin-engineer svg #scene-props .thanks-bubble path,
+.margin-engineer svg #scene-props .hero-ow rect{fill:#F4F0EF!important;stroke:#D4C9CB!important;stroke-width:1.1!important}
+.margin-engineer svg #scene-props .thanks-bubble text,
+.margin-engineer svg #scene-props .hero-ow text{fill:#252326!important;stroke:none!important;font-weight:400!important;paint-order:normal}
+.margin-engineer svg #scene-props .thought{fill:#F4F0EF!important;stroke:#D4C9CB!important}
+.margin-engineer svg #scene-props .thought path{stroke:#454046!important}
+.margin-engineer svg #scene-props .project-car > path,
+.margin-engineer svg #scene-props .project-car > circle,
+.margin-engineer svg #scene-props .flight-rocket > path:not(.flame),
+.margin-engineer svg #scene-props .flight-rocket > circle{stroke:#302B30!important;stroke-width:1.15!important;stroke-linejoin:round!important}
+.margin-engineer svg #scene-props .project-car > path:first-child,
+.margin-engineer svg #scene-props .flight-rocket > path:first-child{fill:#B97982!important}
+
+/* Embedded resume PDF */
+.resume-pdf-panel {text-align:left;}
+.resume-pdf-panel .btn {margin: 12px 0 22px;}
+.resume-embed {width:100%; height:min(80vh, 950px); min-height:540px; border:1px solid rgba(255,255,255,.25); border-radius:8px; overflow:hidden; background:#f7f7f7;}
+.resume-embed iframe {display:block;width:100%;height:100%;border:0;}
+@media(max-width:650px){.resume-embed{min-height:450px;height:70vh;}}
+
+/* Resume layout: centered PDF with download action beneath it */
+.resume-main .resume-pdf-panel{margin-left:auto;margin-right:auto;width:100%;max-width:850px;box-sizing:border-box;align-items:center;text-align:center;padding:35px;}
+.resume-main .resume-embed{width:100%;max-width:780px;margin-left:auto;margin-right:auto;}
+.resume-main .resume-note{max-width:780px;margin:18px auto 8px;}
+.resume-main .resume-download{display:flex;justify-content:center;width:100%;margin-top:20px;}
+.resume-main .resume-download .btn{margin:0;}
+@media(max-width:650px){.resume-main .resume-pdf-panel{padding:16px;}}
